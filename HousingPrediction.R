@@ -5,7 +5,7 @@ library(ModelMetrics)
 
 
 
-df <- read.csv('C:/Users/Nishka Pandya/Downloads/nup13_Data101_HW3/nup13_Data101_HW3/housing.csv')
+df <- read.csv('data/housing.csv')
 colnames(df)
 row(df)
 summary(df)
